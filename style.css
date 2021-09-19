@@ -1312,6 +1312,7 @@ section.sectionFive {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 section.sectionFive .question {
@@ -1557,6 +1558,10 @@ footer p.copyright {
   top: 140px;
   left: 25%;
   height: 20px;
+}
+.icone-illustration{
+  width: 20em;
+  height: 20em;
 }
 
 /* media */
