@@ -634,6 +634,12 @@ h2 .surligner{
   font-size: 36px;
   color: #01084c;
 }
+.ligne{
+  background-image: url("src1.0/underline.svg");
+  width: 5em;
+  height: 0.2em;
+  position: fixed;
+}
 .personnalisation .p .ligne-p {
   position: absolute;
   width: 82.1px;
