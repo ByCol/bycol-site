@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;600&display=swap');
+
 /* @import url("https://fonts.googleapis.com/css?family=Merriweather:900&display=swap");
 :root {
   --color-primary: #000000;
@@ -508,9 +511,12 @@ section.sectionTwo h2.tSectionTwo {
   grid-row: 2;
   font-size: 40px;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   color: #324865;
   text-transform: uppercase;
 }
+/* ligne manquant  */
 section.sectionTwo .titre.ligne {
   /* grid-row: 2; */
   position: absolute;
@@ -556,18 +562,22 @@ section.sectionTwo .titre.ligne {
 .assistantVocal .a h2 {
   font-size: 36px;
   color: #01084c;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 .assistantVocal .ligne{
   position: absolute;
   width: 85.24px;
   height: 1.61px;
   left: 802px;
-  top: 1760px;
+  top: 1765px;
   background: linear-gradient(90deg, #25DEF1 0.76%, #1EBFE9 9.42%, #1595DF 24.23%, #0D71D6 39.25%, #0756CF 54.46%, #0343CA 69.78%, #0037C7 85.29%, #0034C7 101.52%);
 }
 .assistantVocal .a p {
   font-size: 18px;
   width: 590px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 .assistantVocal .btn-assistantVocal a {
   text-transform: capitalize;
@@ -601,18 +611,20 @@ background-image: url(src1.0/border.svg);
 }
 .traitementLocal .t {
   width: 540px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 .traitementLocal .t h2 {
   font-size: 36px;
   color: #01084c;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 .traitementLocal .t .ligne-t {
   position: absolute;
   width: 85.24px;
   height: 1.61px;
   left: 360px;
-  top: 2130px;
+  top: 2105px;
   background: linear-gradient(
     90deg,
     #25dcf1 0.76%,
@@ -627,6 +639,8 @@ background-image: url(src1.0/border.svg);
 }
 .traitementLocal .t p {
   font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 .traitementLocal .btn-traitementLocal a {
   text-transform: capitalize;
@@ -654,6 +668,8 @@ background-image: url(src1.0/border.svg);
 .personnalisation .p h2 {
   font-size: 36px;
   color: #01084c;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 /* .ligne{
   background-image: url("src1.0/underline.svg");
@@ -666,7 +682,7 @@ background-image: url(src1.0/border.svg);
   width: 82.1px;
   height: 1.61px;
   left: 850px;
-  top: 2469px;
+  top: 2474px;
   background: linear-gradient(
     90deg,
     #25dcf1 0.76%,
@@ -681,6 +697,8 @@ background-image: url(src1.0/border.svg);
 }
 .personnalisation .p p {
   font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 .personnalisation .btn-personnalisation a {
   text-transform: capitalize;
@@ -699,22 +717,24 @@ background-image: url(src1.0/border.svg);
   height: 321px;
   background: linear-gradient(266.25deg, #F5FBFF 42.46%, rgba(245, 251, 255, 0) 103.75%);
   border-radius: 27.3683px;
-
 }
 .design .p {
   width: 600px;
   margin-top: 50px;
+
 }
 .design h2 {
   font-size: 36px;
   color: #1a264a;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 .design .ligne-d {
   position: absolute;
   width: 82.1px;
   height: 1.61px;
   left: 330px;
-  top: 2800px;
+  top: 2805px;
   background: linear-gradient(
     90deg,
     #25dcf1 0.76%,
@@ -729,6 +749,8 @@ background-image: url(src1.0/border.svg);
 }
 .design p {
   font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 .design .btn-design a {
   text-transform: capitalize;
@@ -761,13 +783,15 @@ background-image: url(src1.0/border.svg);
 .qualiteSonor .q h2 {
   font-size: 36px;
   color: #1a264a;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 .qualiteSonor .q .ligne-q {
   position: absolute;
   width: 82.1px;
   height: 1.61px;
   left: 813px;
-  top: 3230px;
+  top: 3225px;
   background: linear-gradient(
     90deg,
     #25dcf1 0.76%,
@@ -782,6 +806,8 @@ background-image: url(src1.0/border.svg);
 }
 .qualiteSonor .q p {
   font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 .qualiteSonor .btn-qualiteSonor a {
   text-transform: capitalize;
@@ -792,7 +818,7 @@ background-image: url(src1.0/border.svg);
 
 .domotique {
   margin-top: 100px;
-  padding-top: 25px;
+  padding-top: 20px;
   grid-row: 8;
   grid-column: 2 / 4;
   width: 1128px;
@@ -810,18 +836,20 @@ background-image: url(src1.0/border.svg);
   margin-top: -100px;
 }
 .domotique .d {
-  width: 450px;
+  width: 540px;
 }
 .domotique .d h2 {
   font-size: 36px;
   color: #1a264a;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 .domotique .d .ligne-d {
   position: absolute;
   width: 82.1px;
   height: 1.61px;
-  left: 365px;
-  top: 3530px;
+  left: 350px;
+  top: 3535px;
   background: linear-gradient(
     90deg,
     #25dcf1 0.76%,
@@ -836,6 +864,8 @@ background-image: url(src1.0/border.svg);
 }
 .domotique .d p {
   font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 .domotique .btn-domotique a {
   text-transform: capitalize;
@@ -1346,7 +1376,7 @@ background: #01084C;
 }
 
 /* sectionFive */
-
+/* image de font */
 section.sectionFive {
   height: 800px;
   background: linear-gradient(252.15deg, #011053 7.36%, #01b4e0 109.77%);
