@@ -462,7 +462,7 @@ section.sectionOne .vector img {
 section.sectionTwo {
   display: grid;
   grid-template-rows: 100px 100px repeat(6, 230px);
-  grid-template-columns: 100px 700px 700px 100px;
+  grid-template-columns: 250px 625px 625px 100px;
   gap: 100px 10px;
   /* margin-right: 100px; */
   margin: 200px 20px;
@@ -542,8 +542,8 @@ section.sectionTwo .titre.ligne {
   align-items: center;
   flex-wrap: wrap;
 }
-.assistantVocal .image {
-  grid-column: 2 / 3;
+.assistantVocal img {
+  margin-top: -20px;
 }
 .assistantVocal .a {
   /* grid-row: 2; */
@@ -560,7 +560,7 @@ section.sectionTwo .titre.ligne {
   position: absolute;
   width: 85.24px;
   height: 1.61px;
-  left: 653px;
+  left: 802px;
   top: 1780px;
   background: linear-gradient(90deg, #25DEF1 0.76%, #1EBFE9 9.42%, #1595DF 24.23%, #0D71D6 39.25%, #0756CF 54.46%, #0343CA 69.78%, #0037C7 85.29%, #0034C7 101.52%);
 }
