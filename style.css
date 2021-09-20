@@ -756,7 +756,7 @@ background-image: url(src1.0/border.svg);
   margin-top: -100px;
 }
 .qualiteSonor .q {
-  width: 400px;
+  width: 520px;
 }
 .qualiteSonor .q h2 {
   font-size: 36px;
@@ -766,8 +766,8 @@ background-image: url(src1.0/border.svg);
   position: absolute;
   width: 82.1px;
   height: 1.61px;
-  left: 905px;
-  top: 3170px;
+  left: 813px;
+  top: 3230px;
   background: linear-gradient(
     90deg,
     #25dcf1 0.76%,
