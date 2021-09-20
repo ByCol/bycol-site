@@ -541,6 +541,7 @@ section.sectionTwo .titre.ligne {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: -20px;
 }
 .assistantVocal img {
   margin-top: -20px;
@@ -561,7 +562,7 @@ section.sectionTwo .titre.ligne {
   width: 85.24px;
   height: 1.61px;
   left: 802px;
-  top: 1780px;
+  top: 1760px;
   background: linear-gradient(90deg, #25DEF1 0.76%, #1EBFE9 9.42%, #1595DF 24.23%, #0D71D6 39.25%, #0756CF 54.46%, #0343CA 69.78%, #0037C7 85.29%, #0034C7 101.52%);
 }
 .assistantVocal .a p {
@@ -576,25 +577,31 @@ section.sectionTwo .titre.ligne {
 }
 
 .traitementLocal {
-  margin: 50px;
+  /* margin: 50px; */
   display: flex;
   justify-content: space-around;
   grid-row: 4;
   grid-column: 2 / 4;
   width: 1127.73px;
-  height: 321px;
-  background: rgba(255, 255, 255, 0.31);
+  height: 270px;
+  /* background:  rgba(255, 255, 255, 0.31);
+  border: 0.8px solid;
+  border-radius: 27.3683px;
+  border-style: linear-gradient(); */
+background-image: url(src1.0/border.svg);
+  
 }
 .traitementLocal img {
   /* position: absolute; */
-  margin-top: -30px;
+  margin-top: 40px;
   width: 278px;
   height: 278px;
   /* left: 884px;
   top: 1812px; */
 }
 .traitementLocal .t {
-  width: 600px;
+  width: 540px;
+  margin-top: 40px;
 }
 .traitementLocal .t h2 {
   font-size: 36px;
@@ -604,8 +611,8 @@ section.sectionTwo .titre.ligne {
   position: absolute;
   width: 85.24px;
   height: 1.61px;
-  left: 370px;
-  top: 2128px;
+  left: 360px;
+  top: 2130px;
   background: linear-gradient(
     90deg,
     #25dcf1 0.76%,
