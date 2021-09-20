@@ -1030,15 +1030,19 @@ section.sectionThree .sT {
 
 section.sectionFour {
   height: 700px;
-  background: #ffffff;
+  /* background: #c02c2c; */
   /* display: flex; */
   /* justify-content: center;
   flex-direction: row; */
-  margin-left: 10%;
+  /* margin-left: 10%; */
   margin-top: 6%;
   display: grid;
-  grid-template-columns: 400px 900px 400px 0fr;
+  grid-template-columns: 275px 1150px 275px 0fr;
   grid-template-rows: 120px 400px;
+  background-image: url(src1.0/abstract\ illustration\ team.svg);
+  background-position: 1275px 295px ;
+  background-repeat: no-repeat;
+
 }
 section.sectionFour h2.titreSF {
   /* margin: 0 auto; */
@@ -1055,6 +1059,14 @@ section.sectionFour h2.titreSF {
   left: 20%; */
   text-transform: uppercase;
   /* margin-bottom: 200px; */
+}
+section.sectionFour .ligne{
+position: absolute;
+width: 138.45px;
+height: 1.61px;
+left: 765px;
+top: 4670px;
+background: linear-gradient(90deg, #25DCF1 0.76%, #1EBFE9 9.42%, #1595DF 24.23%, #0D71D6 39.25%, #0756CF 54.46%, #0343CA 69.78%, #0037C7 85.29%, #0034C7 101.52%);
 }
 
 section.sectionFour .cards {
@@ -1078,7 +1090,7 @@ section.sectionFour .co-fondateur {
 .co-fondateur.c-two {
   display: flex;
   /* flex-direction: row; */
-  margin-right: 50px;
+  margin-right: 150px;
 }
 .co-fondateur.c-two img {
   border-radius: 50%;
@@ -1118,6 +1130,14 @@ section.sectionFour .co-fondateur {
   color: #45c8ee;
   margin: 85px 116.88px 89.87px 207px;
 }
+.co-fondateur.c-two .ligne {
+position: absolute;
+width: 37.76px;
+height: 0.64px;
+left: 1160px;
+top: 4893px;
+background: #01084C;
+}
 .co-fondateur.c-two p {
   position: absolute;
   width: 71.03px;
@@ -1127,7 +1147,7 @@ section.sectionFour .co-fondateur {
   font-size: 15px;
   line-height: 16px;
   color: #585e68;
-  margin: 113.16px 126px 56.26px 209.63px;
+  margin: 113.16px 235px;
 }
 
 .co-fondateur.c-three {
@@ -1170,6 +1190,14 @@ section.sectionFour .co-fondateur {
   color: #45c8ee;
   margin: 85px 116.88px 89.87px 207px;
 }
+.co-fondateur.c-three .ligne {
+position: absolute;
+width: 37.76px;
+height: 0.64px;
+left: 506px;
+top: 4893px;
+background: #01084C;
+}
 .co-fondateur.c-three p {
   position: absolute;
   width: 71.03px;
@@ -1179,7 +1207,7 @@ section.sectionFour .co-fondateur {
   font-size: 15px;
   line-height: 16px;
   color: #585e68;
-  margin: 113.16px 126px 56.26px 209.63px;
+  margin: 113.16px 235px;
 }
 
 /* media */
