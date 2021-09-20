@@ -792,23 +792,25 @@ background-image: url(src1.0/border.svg);
 
 .domotique {
   margin-top: 100px;
+  padding-top: 25px;
   grid-row: 8;
   grid-column: 2 / 4;
   width: 1128px;
-  height: 317px;
+  height: 270px;
   /* background: rgba(255, 255, 255, 0.31);
   border-radius: 27.3683px;
   transform: matrix(1, 0, 0, -1, 0, 0); */
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  background-image: url(src1.0/border.svg);
 }
 .domotique img {
   height: 400px;
   margin-top: -100px;
 }
-.domotique .D {
-  width: 400px;
+.domotique .d {
+  width: 450px;
 }
 .domotique .d h2 {
   font-size: 36px;
@@ -818,8 +820,8 @@ background-image: url(src1.0/border.svg);
   position: absolute;
   width: 82.1px;
   height: 1.61px;
-  left: 330px;
-  top: 3455px;
+  left: 365px;
+  top: 3530px;
   background: linear-gradient(
     90deg,
     #25dcf1 0.76%,
