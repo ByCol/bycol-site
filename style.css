@@ -642,8 +642,6 @@ background-image: url(src1.0/border.svg);
   justify-content: space-around;
   width: 1127.73px;
   height: 321px;
-  /* background: linear-gradient(266.25deg, #F5FBFF 42.46%, rgba(245, 251, 255, 0) 103.75%);
-  border-radius: 27.3683px; */
   margin-top: 50px;
 }
 .personnalisation img {
@@ -699,11 +697,13 @@ background-image: url(src1.0/border.svg);
   flex-wrap: wrap;
   width: 1127.73px;
   height: 321px;
-  background: rgba(255, 255, 255, 0.31);
+  background: linear-gradient(266.25deg, #F5FBFF 42.46%, rgba(245, 251, 255, 0) 103.75%);
   border-radius: 27.3683px;
+
 }
 .design .p {
-  width: 400px;
+  width: 600px;
+  margin-top: 50px;
 }
 .design h2 {
   font-size: 36px;
@@ -713,8 +713,8 @@ background-image: url(src1.0/border.svg);
   position: absolute;
   width: 82.1px;
   height: 1.61px;
-  left: 342px;
-  top: 2695px;
+  left: 330px;
+  top: 2800px;
   background: linear-gradient(
     90deg,
     #25dcf1 0.76%,
