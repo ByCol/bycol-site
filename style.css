@@ -1360,7 +1360,7 @@ section.sectionFive .question {
   width: 570px;
   height: 37.44px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 26px;
   line-height: 37px;
   letter-spacing: 0.12em;
@@ -1396,6 +1396,11 @@ section.sectionFive form {
   );
   backdrop-filter: blur(2.2662px);
   border-radius: 15.8634px;
+}
+section.sectionFive form input {
+  padding-left: 20px;
+  color: #ffffff;
+  font-weight: 400;
 }
 section.sectionFive form input.name {
   width: 151.84px;
@@ -1606,4 +1611,5 @@ footer p.copyright {
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: white;
   opacity: 1; /* Firefox */
+  
 }
