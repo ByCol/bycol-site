@@ -644,10 +644,11 @@ background-image: url(src1.0/border.svg);
   height: 321px;
   /* background: linear-gradient(266.25deg, #F5FBFF 42.46%, rgba(245, 251, 255, 0) 103.75%);
   border-radius: 27.3683px; */
+  margin-top: 50px;
 }
 .personnalisation img {
   height: 400px;
-  margin-top: -100px;
+  margin-top: -130px;
 }
 .personnalisation .p {
   width: 470px;
@@ -656,18 +657,18 @@ background-image: url(src1.0/border.svg);
   font-size: 36px;
   color: #01084c;
 }
-.ligne{
+/* .ligne{
   background-image: url("src1.0/underline.svg");
   width: 5em;
   height: 0.2em;
   position: fixed;
-}
+} */
 .personnalisation .p .ligne-p {
   position: absolute;
   width: 82.1px;
   height: 1.61px;
   left: 850px;
-  top: 2408.08px;
+  top: 2469px;
   background: linear-gradient(
     90deg,
     #25dcf1 0.76%,
