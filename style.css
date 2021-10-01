@@ -2175,6 +2175,41 @@ footer .bwip {
     margin-bottom: 50px;
   }
 
+  section.sectionFour .co-fondateur {
+    width: 300px;
+    height: 165px;
+  }
+  .co-fondateur.c-two img {
+    margin-left: 0;
+  }
+  .co-fondateur.c-two .nameY {
+    margin: 55.99px 125px 107.69px 150px;
+    font-size: 15px;
+  }
+  .co-fondateur.c-two .titreY {
+    margin: 85px 116.88px 89.87px 171px;
+    font-size: 13px;
+  }
+  .co-fondateur.c-two p {
+    margin: 95.16px 199px;
+  }
+
+  .co-fondateur.c-three img {
+    margin-left: 5px;
+  }
+  .co-fondateur.c-three .nameE {
+    font-size: 15px;
+    margin: 55.99px 125px 107.69px 140px;
+  }
+  .co-fondateur.c-three h3.titreE {
+    margin: 70px 116.88px 89.87px 168px;
+    font-size: 13px;
+  }
+  .co-fondateur.c-three p {
+    margin: 95.16px 193px;
+  }
+
+
   .apply img {
     height: 500px;
   }
@@ -2236,38 +2271,5 @@ footer .bwip {
 }
 
 @media screen and (max-width: 375px) {
-  section.sectionFour .co-fondateur {
-    width: 300px;
-    height: 165px;
-  }
-
-  .co-fondateur.c-two img {
-    margin-left: 0;
-  }
-  .co-fondateur.c-two .nameY {
-    margin: 55.99px 125px 107.69px 150px;
-    font-size: 15px;
-  }
-  .co-fondateur.c-two .titreY {
-    margin: 85px 116.88px 89.87px 171px;
-    font-size: 13px;
-  }
-  .co-fondateur.c-two p {
-    margin: 95.16px 199px;
-  }
-
-  .co-fondateur.c-three img {
-    margin-left: 5px;
-  }
-  .co-fondateur.c-three .nameE {
-    font-size: 15px;
-    margin: 55.99px 125px 107.69px 140px;
-  }
-  .co-fondateur.c-three h3.titreE {
-    margin: 70px 116.88px 89.87px 168px;
-    font-size: 13px;
-  }
-  .co-fondateur.c-three p {
-    margin: 95.16px 193px;
-  }
+  
 }
