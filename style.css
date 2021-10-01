@@ -605,8 +605,8 @@ section.sectionTwo .titre.ligne {
 .assistantVocal .a p {
   font-size: 18px;
   width: 590px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-family: 'Open Sans';
+  font-weight: lighter;
 }
 .assistantVocal .btn-assistantVocal a {
   text-transform: capitalize;
@@ -986,6 +986,7 @@ section.sectionThree {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  font-family: Poppins;
 }
 .apply {
   margin-top: -100px;
@@ -997,13 +998,16 @@ section.sectionThree .sT {
   width: 655px;
   margin-top: 75px;
 }
-.sT h2 {
-  font-size: 50px;
+section.sectionThree .sT h2 {
+  font-size: 30px;
   color: #324966;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
+  font-weight: 700;
 }
-.sT p {
+section.sectionThree .sT p {
   font-size: 20px;
+  font-family: "open sans";
+  font-weight: 100;
 }
 .sT .btn-st {
   width: 200px;
@@ -1806,8 +1810,6 @@ footer p.copyright {
     background: linear-gradient(214deg, #F5FBFF 31.73%, rgba(245, 251, 255, 0) 72.36%); 
   }
 
-
-
   .card-of-pres h2{
     font-size: 35px;
   }
@@ -2012,7 +2014,14 @@ footer p.copyright {
 @media screen and (max-width: 475px) {
 
 
-  section.sectionThree {margin-bottom: 70%;}
+  section.sectionThree {
+    margin-bottom: 28%;
+    margin-top: 40%;
+    height: 1%;
+  }
+  section.sectionThree .sT h2 {
+    font-size: 30px;
+  }
 
   section.sectionOne .btnHome{
     flex-direction: column;
@@ -2062,8 +2071,12 @@ footer p.copyright {
 
   section.sectionTwo h2.tSectionTwo {
     font-size: 30px;
+    margin-top: 10%;
   }
   
+  .trustedByTheWorld-sBest {
+    margin-top: -5%;
+  }
   .trustedByTheWorld-sBest img {
     margin-top: 20%;
     height: 15px;
