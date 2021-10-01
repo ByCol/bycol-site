@@ -2014,7 +2014,11 @@ footer p.copyright {
 
   section.sectionOne {
     grid-template-rows: 1fr 0fr 3fr 2fr 2fr 0.3fr;
-    background-position: 70%;
+    /* background-position: 61%; */
+    background: url(src1.0/homeMobil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90%;
   }
 
   section.sectionOne .btnHome .btnDecouvrir {
@@ -2044,6 +2048,7 @@ footer p.copyright {
 
   .vector img {
     height: 10%;
+    margin-top: -0.5%;
   }
 
   section.sectionTwo h2.tSectionTwo {
