@@ -2,298 +2,368 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="ressources/01 copie.ico" type="image/x-icon">
-    <link rel="stylesheet" href="hotellerie.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="src1.0/logo shortcut.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://tally.so/embed/wd6ldm?hideTitle=1&alignLeft=1" />
     <title>Bycol</title>
 </head>
 
-<body">
-    <header>
-        <a href="index.html" class="logoBycol">
-            <img src="ressources/Logo blanc taille moyene.svg" alt="logo Bycol">
-        </a>
-
-        <ul class="nav">
-            <li><a href="#detail">Détails</a></li>
-            <li><a href="#lequipe">L'équipe</a></li>
-            <li><a href="hotellerie.html">Hôtellerie</a></li>
-            <li class="contactez">Contactez-nous</li>
-        </ul>
-
-        <div class="navResponsive">
-            <input id="page-nav-toggle" class="main-navigation-toggle" type="checkbox" />
-            <label for="page-nav-toggle">
-                <svg class="icon--menu-toggle" viewBox="0 0 60 30">
-                    <g class="icon-group">
-                        <g class="icon--menu">
-                            <path d="M 6 0 L 54 0" />
-                            <path d="M 6 15 L 54 15" />
-                            <path d="M 6 30 L 54 30" />
-                        </g>
-                        <g class="icon--close">
-                            <path d="M 15 0 L 45 30" />
-                            <path d="M 15 30 L 45 0" />
-                        </g>
-                    </g>
-                </svg>
-            </label>
-
-            <nav class="main-navigation">
-                <ul>
-                    <li><a href="#detail">Détails</a></li>
-                    <li><a href="#lequipe">L'équipe</a></li>
-                    <li><a href="hotellerie.html">Hôtellerie</a></li>
-                    <li> <a href="#nousContacter">
-                            Nous contacter
-                        </a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
+<body>
     <section class="sectionOne">
+        <header>
+            <a href="index.html" class="logoBycol">
+                <img src="src1.0/Logo et nom blanc.svg" alt="" />
+            </a>
 
+            <ul class="nav">
+                <li><a href="#detail">Détails</a></li>
+                <li><a href="#lequipe">L'équipe</a></li>
+                <li><a href="#nousContacter"> Nous contacter </a></li>
+            </ul>
+        </header>
 
-        <h2 class="leFuture">
-            VOTRE MAJORDOME
-        </h2>
+        <h2 class="leFuture">VOTRE MAJORDOME</h2>
+        <h3 class="Unetechnologie">
+            Une technologie <br class="saut-de-ligne" />
+            de pointe.
+        </h3>
 
         <div class="btnHome">
             <div class="btnDecouvrir">
-                <a href="hotellerie">
-                    Découvrir
-                </a>
+                <a href="#detail"> Découvrir </a>
             </div>
             <div class="btnnousContactez">
-                <a href="#nousContacter">
-                    Nous contacter
-                </a>
+                <a href="#nousContacter"> Nous contacter </a>
             </div>
         </div>
 
+        <div class="vector">
+            <img src="src1.0/Vector1.png" alt="" />
+            <img src="src1.0/Vector2.png" alt="" />
+        </div>
     </section>
 
     <section class="sectionTwo">
+        <div class="trustedByTheWorld-sBest">
+            <img src="src1.0/Icone reseau entreprendre.svg" class="reseauEntreprendre" alt="" />
+            <img src="src1.0/Icone numix.svg" class="numix" alt="" />
+            <img src="src1.0/Icone french tech.svg" class="laFrenchTech" alt="" />
+            <img src="src1.0/Icone wacano.svg" class="wacano" alt="" />
+            <img src="src1.0/Icone bpi.svg" class="bipFrance" alt="" />
+        </div>
 
         <h2 class="tSectionTwo" id="detail">Caractéristiques exclusives</h2>
+        <!-- <div class='ligne'></div> -->
 
-        <div class='ligne-titre'></div>
+        <!--_________________________ Pour version mobile _________________________ -->
 
-        <p class="p">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> labore
-            inventore veritadipisci velit, snumquam eius
-        </p>
+        <div class="pres-mobile">
+            <div class="card-of-pres assistant-vocal">
+                <img src="src1.0/Icone enceinte 1.svg" alt="robo" class="icone-illustration" />
 
-        <div class="assistantVocal">
-            <img src="ressources/cadna.svg" alt="robo">
-
-            <div class="a">
-                <h2>Vie privée</h2>
-
-                <div class='ligne-a'></div>
-                <div class='ligne-ab'></div>
-
+                <h2>Assistant vocal</h2>
                 <p>
-                    Les données sont traitées en local aucune information n'est sauvegardée ou envoyée en ligne </p>
+                    Entièrement développé par nos soins, nous garantissons une
+                    confidentialité des données infaillibles. Cette garantie permet
+                    d'implanter un assistant vocal dans une chambre d'hôtel sans aucun
+                    risque.
+                </p>
 
                 <div class="btn-assistantVocal">
-                    <a href="#">learn mmove</a>
+                    <!-- <a href="#">En savoir plus &nbsp ＞</a> -->
                 </div>
             </div>
-        </div>
+            <div class="card-of-pres traitement-Local">
+                <img src="src1.0/Traitement en local.svg" alt="" class="icone-illustration" />
 
-        <div class="traitementLocal">
-            <div class="t">
-                <h2>Service</h2>
-
-                <div class='ligne-t'></div>
-                <div class='ligne-tb'></div>
-
-                <P>
-                    Une qualité de service 4.0. Fini les appels redondants à la réception , toutes les demandes passent
-                    par ByCol
-                </P>
-
-                <div class="btn-traitementLocal">
-                    <a href="#">learn mmove</a>
-                </div>
-            </div>
-
-            <img src="ressources/chapagne.svg" alt="">
-        </div>
-
-        <div class="personnalisation">
-
-            <div class="apply">
-                <img src="ressources/phone.png" alt="">
-            </div>
-
-            <div class="p">
-
-                <h2>Application</h2>
-
-                <div class='ligne-p'></div>
-                <div class='ligne-pb'></div>
+                <h2>Traitement local</h2>
 
                 <p>
-                    Une application interne dédiée au personnel qui permettra de fluidifier la communication
+                    En l'absence de cloud, chaque donnée est traitée en local. ByCol.ai
+                    assure une protection des données grâce à un système d'intelligence
+                    artificielle
+                </p>
+
+                <div class="btn-traitementLocal">
+                    <!-- <a href="#">En savoir plus &nbsp ＞</a> -->
+                </div>
+            </div>
+            <div class="card-of-pres personnalisation-m">
+                <img src="src1.0/Icone personnalisation.svg" alt="" class="icone-illustration" />
+
+                <h2>Personnalisation</h2>
+
+                <p>
+                    L’enceinte ByCol.ai possède un large panel de skills
+                    personnalisables pour s’adapter au mieux à votre clientèle. Horaires
+                    de piscine, du petit-déjeuner tout est modifiable en quelques clics.
                 </p>
 
                 <div class="btn-personnalisation">
-                    <a href="#">learn mmove</a>
+                    <!-- <a href="#">En savoir plus &nbsp ＞</a> -->
+                </div>
+            </div>
+            <div class="card-of-pres icone-m">
+                <img src="src1.0/Icone Design.svg" alt="" class="icone-illustration" />
+
+                <h2>Design</h2>
+
+                <p>
+                    Ses angles arrondis, son cuir lui procurent une allure élégante
+                    .Discrète, l’enceinte ByCol.ai se confond dans le décor de vos
+                    chambres.
+                </p>
+
+                <div class="btn-design">
+                    <!-- <a href="#">En savoir plus &nbsp ＞</a> -->
+                </div>
+            </div>
+            <div class="card-of-pres enceinte-m">
+                <img src="src1.0/Icone enceinte 2.svg" alt="robo" class="icone-illustration" />
+
+                <h2>Qualité sonore</h2>
+
+                <p>
+                    L’enceinte à été conçue afin de délivrer un son de qualité
+                    s’adaptant à toute sorte d’environnements. Chaque détail des
+                    instruments sera perçu par vos oreilles.
+                </p>
+
+                <div class="btn-qualiteSonor">
+                    <!-- <a href="#">En savoir plus &nbsp ＞</a> -->
+                </div>
+            </div>
+            <div class="card-of-pres domotique-m">
+                <img src="src1.0/Icone Domotique.svg" alt="" class="icone-illustration" />
+
+                <h2>Domotique</h2>
+
+                <!-- <div class='ligne-d'></div> -->
+
+                <p>
+                    L’enceinte connectée permet une automatisation complète des <br />
+                    chambres grâce au protocole Zigbee, en toute simplicité
+                </p>
+
+                <div class="btn-domotique">
+                    <!-- <a href="#">En savoir plus &nbsp ＞</a> -->
                 </div>
             </div>
         </div>
 
-        <div class="qualiteSonor">
-            <img src="ressources/son.jpg" alt="">
+        <!--_________________________ fin pour version mobile _________________________ -->
+
+        <div class="assistantVocal carte-pres">
+            <img src="src1.0/Icone enceinte 1.svg" alt="robo" class="icone-illustration" />
+
+            <div class="a">
+                <h2>Assistant vocal</h2>
+                <!-- <div class="ligne"></div> -->
+                <p>
+                    Entièrement développé par nos soins, nous garantissons une
+                    confidentialité des données infaillibles. Cette garantie permet
+                    d'implanter un assistant vocal dans une chambre d'hôtel sans aucun
+                    risque.
+                </p>
+
+                <div class="btn-assistantVocal">
+                    <a href="#">En savoir plus &nbsp ＞</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="traitementLocal carte-pres">
+            <div class="t">
+                <h2>Traitement local</h2>
+
+                <!-- <div class='ligne-t'></div> -->
+
+                <p>
+                    En l'absence de cloud, chaque donnée est traitée en local. ByCol.ai
+                    assure une protection des données grâce à un système d'intelligence
+                    artificielle
+                </p>
+
+                <div class="btn-traitementLocal">
+                    <a href="#">En savoir plus &nbsp ＞</a>
+                </div>
+            </div>
+
+            <img src="src1.0/Traitement en local.svg" alt="" class="icone-illustration" />
+        </div>
+
+        <div class="personnalisation carte-pres">
+            <img src="src1.0/Icone personnalisation.svg" alt="" class="icone-illustration" />
+
+            <div class="p">
+                <h2>Personnalisation</h2>
+
+                <!-- <div class='ligne-p'></div> -->
+
+                <p>
+                    L’enceinte ByCol.ai possède un large panel de skills
+                    personnalisables pour s’adapter au mieux à votre clientèle. Horaires
+                    de piscine, du petit-déjeuner tout est modifiable en quelques clics.
+                </p>
+
+                <div class="btn-personnalisation">
+                    <a href="#">En savoir plus &nbsp ＞</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="design carte-pres">
+            <div class="p">
+                <h2>Design</h2>
+
+                <!-- <div class='ligne-d'></div> -->
+
+                <p>
+                    Ses angles arrondis, son cuir lui procurent une allure élégante
+                    .Discrète, l’enceinte ByCol.ai se confond dans le décor de vos
+                    chambres.
+                </p>
+
+                <div class="btn-design">
+                    <a href="#">En savoir plus &nbsp ＞</a>
+                </div>
+            </div>
+            <img src="src1.0/Icone Design.svg" alt="" class="icone-illustration" />
+        </div>
+
+        <div class="qualiteSonor carte-pres">
+            <img src="src1.0/Icone enceinte 2.svg" alt="robo" class="icone-illustration" />
 
             <div class="q">
                 <h2>Qualité sonore</h2>
 
-                <div class='ligne-q'></div>
-                <div class='ligne-qb'></div>
+                <!-- <div class='ligne-q'></div> -->
 
                 <p>
-                    Bycol met l'accent sur la qualité sonore proposant une expérience inédite
+                    L’enceinte à été conçue afin de délivrer un son de qualité
+                    s’adaptant à toute sorte d’environnements. Chaque détail des
+                    instruments sera perçu par vos oreilles.
                 </p>
 
                 <div class="btn-qualiteSonor">
-                    <a href="#">learn mmove</a>
+                    <a href="#">En savoir plus &nbsp ＞</a>
                 </div>
             </div>
         </div>
 
-        <div class="domotique">
-
+        <div class="domotique carte-pres">
             <div class="d">
                 <h2>Domotique</h2>
 
-                <div class='ligne-d'></div>
-                <div class='ligne-db'></div>
+                <!-- <div class='ligne-d'></div> -->
 
                 <p>
-                    Gestion automatisée de l'habitation à la voix, pour le <br> confort et la sécurité
+                    L’enceinte connectée permet une automatisation complète des <br />
+                    chambres grâce au protocole Zigbee, en toute simplicité
                 </p>
 
                 <div class="btn-domotique">
-                    <a href="#">learn mmove</a>
+                    <a href="#">En savoir plus &nbsp ＞</a>
                 </div>
             </div>
 
-            <img src="ressources/robot.svg" alt="">
+            <img src="src1.0/Icone Domotique.svg" alt="" class="icone-illustration" />
+        </div>
+    </section>
+
+    <section class="sectionThree">
+        <div class="apply">
+            <img src="src1.0/iphone12.png" alt="" />
+        </div>
+
+        <div class="sT">
+            <h2>Une application connectée, proposant une expérience client 4.0</h2>
+
+            <p>
+                Toutes les demandes sont reliées à une application interne destiné aux
+                membres du personnel. Cette application permet de dynamiser les
+                équipes et fluidifie le service.
+            </p>
+
+            <!-- <div class="btn-st">
+                <a href="#">En savoir plus</a>
+            </div> -->
         </div>
     </section>
 
     <section class="sectionFour">
-        <h2 class="titreSF" id="lequipe">L'équipe</h2>
+        <h2 class="titreSF" id="lequipe">Notre equipe</h2>
+        <!-- <div class="ligne"></div> -->
 
+        <!-- <img src="src1.0/abstract illustration team.svg" alt=""> -->
         <div class="cards">
-            <div class="co-fondateur c-one">
-                <h2 class="h2Sofia">sofia chang</h2>
-                <h2 class="h2Co-F">Co-Fondateur</h2>
-                <img src="ressources/sofia.svg" alt="">
-                <p>Chef de projet</p>
-            </div>
             <div class="co-fondateur c-two">
-                <h2 class="h2Adem">Adem sand</h2>
-                <h2 class=".h2Co-F">Co-Fondateur</h2>
-                <img src="ressources/sofia.svg" alt="">
-                <p>Fondateur de ByCol.ai <br>
-                    Ancien chef de projet informatique </p>
+                <img src="src1.0/Yossef.png" alt="" />
+                <h2 class="nameY">Yossef Aboukrat</h2>
+                <h2 class="titreY">Co-Fondateur</h2>
+                <!-- <div class="ligne"></div> -->
+                <p>CTO</p>
             </div>
+
             <div class="co-fondateur c-three">
-                <h2 class="h2Sofia">sofia chang</h2>
-                <h2 class=".h2Co-F">Roofing Business</h2>
-                <img src="ressources/sofia.svg" alt="">
-                <p>Finance & Marketing</p>
+                <img src="src1.0/Eliahou.png" alt="" />
+                <h2 class="nameE">Eliahou Aboukrat</h2>
+                <h3 class="titreE">Co-Fondateur</h3>
+                <!-- <div class="ligne"></div> -->
+                <p>CEO</p>
             </div>
-        </div>
-        <div class="slide">
-            <img src="ressources/slide.svg" alt="">
         </div>
     </section>
 
     <section class="sectionFive">
+        <h2 class="question">Vous souhaitez en savoir plus ?</h2>
+        <h2 class="afirmation">Contactez nous</h2>
 
-        <div class="trustedByTheWorld-sBest">
-            <h2>Trusted by the world’s best</h2>
-            <img src="ressources/reseau.jpg" alt="">
-        </div>
-
-        <div class="newsletters">
-            <h2><strong> Subscribe Newsletters & Get </strong> <br>
-                Resources</h2>
-            <form action="">
-                <input type="email" class="emailInput" placeholder="Enter your email">
-                <input type="submit" class="btn-sub" value="see more">
-            </form>
-        </div>
+        <form action="https://formspree.io/f/mgerdzkq" method="POST">
+            <input class="name" type="name" placeholder="Nom" />
+            <br class="saute-ligne" />
+            <input class="email" type="email" name="email" id="" placeholder="email" />
+            <input class="text" type="text" placeholder="Votre message" />
+            <button class="btn" type="submit">Contacter</button>
+        </form>
     </section>
 
     <footer>
-
+        <!-- a renomer footer -->
         <div class="info" id="nousContacter">
+            <img class="logoEtNom" src="src1.0/Logo et nom blanc.svg" alt="" />
 
-            <div class="cabol">
-                <img class="imgCabol" src="ressources/cabol.svg" alt="">
-                <p>
-                    Me old mucker Harry don't get shirty with me he nicked it up the kyver gutted mate spend a penny,
-                    bloke
-                    my good sir in my flat bleeding quaint.!
-                </p>
-                <div class="resau-sociaux">
-                    <img src="ressources/f.svg" alt="">
-                    <img src="ressources/t.svg" alt="">
-                    <img src="ressources/d.svg" alt="">
-                    <img src="ressources/l.svg" alt="">
-                </div>
+            <ul>
+                <li><a href="#detail">Détails</a></li>
+                <li><a href="#lequipe">L'équipe</a></li>
+                <li><a href="#nousContacter"> Nous contacter </a></li>
+            </ul>
+
+            <div class="contact">
+                <a href="Contact@bycol.ai" class="m"><img src="src1.0/Icone email.svg" /></a>
+                <a href="Contact@bycol.ai" class="mail"></a>
+
+                <a href="https://www.linkedin.com/company/bycolinkedin.png/" class="in"><img
+                        src="src1.0/Icone linkedin.svg" /></a>
+                <a href="https://www.linkedin.com/company/bycolinkedin.png/" class="linkedin"></a>
             </div>
 
-            <div class="company cards-info">
-                <h2>Company</h2>
-                <ul>
-                    <li>Home</li>
-                    <li>Features </li>
-                    <li>Screenshots</li>
-                    <li>Pricing</li>
-                    <li>Team</li>
-                </ul>
-            </div>
-
-            <div class="help cards-info">
-                <h2>Help</h2>
-                <ul>
-                    <li>Help Center</li>
-                    <li>FAQ's </li>
-                    <li>Terms & Conditions </li>
-                    <li>Privacy</li>
-                    <li>Contacts</li>
-                </ul>
-            </div>
-
-            <div class="solutions cards-info">
-                <h2>Solutions</h2>
-                <ul>
-                    <li>Consumer</li>
-                    <li>Saas </li>
-                    <li>Education </li>
-                    <li>Gaming</li>
-                    <li>Financial Services</li>
-                </ul>
-            </div>
-
+            <!-- <div class="conditionMention">
+                <a href="">Politique de confidentialité</a>
+                <a href="">Mentions légales</a>
+            </div> -->
         </div>
 
-        <P class="copyright">
-            © indianpix | All rights reserved 2019
-        </P>
+        <p class="copyright">
+            &copy; Copyright 2021 ByCol.ai
+            <br class="bwip"> Build with ♥️ in paris
+        </p>
     </footer>
 
     <script src="app.js"></script>
-    </body>
+</body>
 
 </html>
