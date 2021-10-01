@@ -1461,10 +1461,11 @@ section.sectionFive .afirmation {
   width: 530.29px;
   height: 37.44px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 35.0128px;
   line-height: 53px;
   text-align: center;
+  font-family: poppins;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #ffffff;
@@ -1956,7 +1957,7 @@ footer p.copyright {
   }
 
   section.sectionFour h2.titreSF {
-    font-size: 45px;
+    font-size: 40px;
   }
 
   section.sectionFour .co-fondateur {
@@ -2096,7 +2097,8 @@ footer p.copyright {
   }
 
   section.sectionFive .afirmation{
-    font-size: 30px
+    font-size: 30px;
+    margin-bottom: 5%;
   }
 
   .sT h2 {
@@ -2108,6 +2110,13 @@ footer p.copyright {
   section.sectionFive form {
       width: 95%;
       height: 500px;
+  }
+
+  section.sectionFive .question {
+    margin-top: 12%;
+    margin-bottom: 13%;
+    width: 275px;
+    font-size: 22px;
   }
 
   section.sectionFive form .saute-ligne{
@@ -2127,7 +2136,6 @@ footer p.copyright {
   section.sectionFive form button.btn {
     width: 60%;
   }
-
 }
 
 @media screen and (max-width: 375px){
